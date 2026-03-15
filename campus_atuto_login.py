@@ -4,8 +4,8 @@ from playwright.sync_api import sync_playwright
 
 # ===================== 仅需修改这部分配置 =====================
 LOGIN_URL = "http://10.10.9.4/"       # 校园网登录地址
-USERNAME = "2112361005"              # 你的账号
-PASSWORD = "123456!!"                # 你的密码
+USERNAME = "********"              # 你的账号
+PASSWORD = "********"                # 你的密码
 # 固定点击坐标（根据自己屏幕调整）
 USERNAME_CLICK_POS = (965, 240)      # 用户名输入框点击坐标
 PASSWORD_CLICK_POS = (965, 279)      # 密码输入框点击坐标
